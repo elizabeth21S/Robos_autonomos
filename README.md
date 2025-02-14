@@ -6,3 +6,5 @@ Este repositorio contiene la implementación de un **sistema de navegación aut�
 ```bash
 git clone https://github.com/elizabeth21S/Robos_autonomos.git
 cd ros2_ws
+colcon build
+source install/setup.bash
