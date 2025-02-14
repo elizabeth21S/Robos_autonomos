@@ -1,0 +1,3 @@
+[0mCMake Error: The source directory "/home/elizabeth_s/ros2_ws/ros2_learners/navigation_tb3" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.[0m
+gmake: *** [Makefile:295: cmake_check_build_system] Error 1

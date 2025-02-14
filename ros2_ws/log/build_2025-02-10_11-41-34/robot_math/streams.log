@@ -1,0 +1,41 @@
+[2.657s] Invoking command in '/home/elizabeth_s/ros2_ws/ros2_learners/robot_math': PYTHONPATH=/home/elizabeth_s/ros2_ws/build/robot_math/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/elizabeth_s/ros2_ws/install/robot_math/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_math build --build-base /home/elizabeth_s/ros2_ws/build/robot_math/build install --record /home/elizabeth_s/ros2_ws/build/robot_math/install.log --single-version-externally-managed install_data
+[3.409s] running egg_info
+[3.409s] creating ../../build/robot_math/robot_math.egg-info
+[3.409s] writing ../../build/robot_math/robot_math.egg-info/PKG-INFO
+[3.410s] writing dependency_links to ../../build/robot_math/robot_math.egg-info/dependency_links.txt
+[3.414s] writing entry points to ../../build/robot_math/robot_math.egg-info/entry_points.txt
+[3.414s] writing requirements to ../../build/robot_math/robot_math.egg-info/requires.txt
+[3.414s] writing top-level names to ../../build/robot_math/robot_math.egg-info/top_level.txt
+[3.414s] writing manifest file '../../build/robot_math/robot_math.egg-info/SOURCES.txt'
+[3.418s] reading manifest file '../../build/robot_math/robot_math.egg-info/SOURCES.txt'
+[3.418s] writing manifest file '../../build/robot_math/robot_math.egg-info/SOURCES.txt'
+[3.418s] running build
+[3.418s] running build_py
+[3.419s] creating /home/elizabeth_s/ros2_ws/build/robot_math/build
+[3.419s] creating /home/elizabeth_s/ros2_ws/build/robot_math/build/lib
+[3.419s] creating /home/elizabeth_s/ros2_ws/build/robot_math/build/lib/robot_math
+[3.419s] copying robot_math/__init__.py -> /home/elizabeth_s/ros2_ws/build/robot_math/build/lib/robot_math
+[3.419s] copying robot_math/andular_velocity.py -> /home/elizabeth_s/ros2_ws/build/robot_math/build/lib/robot_math
+[3.419s] copying robot_math/gtg.py -> /home/elizabeth_s/ros2_ws/build/robot_math/build/lib/robot_math
+[3.419s] running install
+[3.420s] running install_lib
+[3.421s] creating /home/elizabeth_s/ros2_ws/install/robot_math/lib/python3.10/site-packages/robot_math
+[3.421s] copying /home/elizabeth_s/ros2_ws/build/robot_math/build/lib/robot_math/__init__.py -> /home/elizabeth_s/ros2_ws/install/robot_math/lib/python3.10/site-packages/robot_math
+[3.421s] copying /home/elizabeth_s/ros2_ws/build/robot_math/build/lib/robot_math/andular_velocity.py -> /home/elizabeth_s/ros2_ws/install/robot_math/lib/python3.10/site-packages/robot_math
+[3.422s] copying /home/elizabeth_s/ros2_ws/build/robot_math/build/lib/robot_math/gtg.py -> /home/elizabeth_s/ros2_ws/install/robot_math/lib/python3.10/site-packages/robot_math
+[3.423s] byte-compiling /home/elizabeth_s/ros2_ws/install/robot_math/lib/python3.10/site-packages/robot_math/__init__.py to __init__.cpython-310.pyc
+[3.424s] byte-compiling /home/elizabeth_s/ros2_ws/install/robot_math/lib/python3.10/site-packages/robot_math/andular_velocity.py to andular_velocity.cpython-310.pyc
+[3.427s] byte-compiling /home/elizabeth_s/ros2_ws/install/robot_math/lib/python3.10/site-packages/robot_math/gtg.py to gtg.cpython-310.pyc
+[3.427s] running install_data
+[3.427s] creating /home/elizabeth_s/ros2_ws/install/robot_math/share/ament_index
+[3.427s] creating /home/elizabeth_s/ros2_ws/install/robot_math/share/ament_index/resource_index
+[3.427s] creating /home/elizabeth_s/ros2_ws/install/robot_math/share/ament_index/resource_index/packages
+[3.427s] copying resource/robot_math -> /home/elizabeth_s/ros2_ws/install/robot_math/share/ament_index/resource_index/packages
+[3.428s] copying package.xml -> /home/elizabeth_s/ros2_ws/install/robot_math/share/robot_math
+[3.428s] running install_egg_info
+[3.431s] Copying ../../build/robot_math/robot_math.egg-info to /home/elizabeth_s/ros2_ws/install/robot_math/lib/python3.10/site-packages/robot_math-0.0.0-py3.10.egg-info
+[3.433s] running install_scripts
+[3.488s] Installing circle_motion_node script to /home/elizabeth_s/ros2_ws/install/robot_math/lib/robot_math
+[3.488s] Installing go_To_Goal_node script to /home/elizabeth_s/ros2_ws/install/robot_math/lib/robot_math
+[3.488s] writing list of installed files to '/home/elizabeth_s/ros2_ws/build/robot_math/install.log'
+[3.556s] Invoked command in '/home/elizabeth_s/ros2_ws/ros2_learners/robot_math' returned '0': PYTHONPATH=/home/elizabeth_s/ros2_ws/build/robot_math/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/elizabeth_s/ros2_ws/install/robot_math/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_math build --build-base /home/elizabeth_s/ros2_ws/build/robot_math/build install --record /home/elizabeth_s/ros2_ws/build/robot_math/install.log --single-version-externally-managed install_data

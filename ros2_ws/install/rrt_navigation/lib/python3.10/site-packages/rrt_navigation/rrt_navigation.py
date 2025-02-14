@@ -1,0 +1,100 @@
+import rclpy
+import numpy as np
+import time
+from rclpy.node import Node
+from rclpy.action import ActionClient
+from geometry_msgs.msg import PoseStamped
+from nav2_msgs.action import NavigateToPose
+from sensor_msgs.msg import LaserScan
+from nav2_simple_commander.robot_navigator import BasicNavigator
+
+
+class Bug2Explorer(Node):
+    def __init__(self):
+        super().__init__('bug2_explorer')
+        self.navigator = BasicNavigator()
+        self.subscription = self.create_subscription(LaserScan, '/scan', self.lidar_callback, 10)
+        
+        
+        # Parámetros del mapa
+        self.grid_size = 1.0  # Tamaño de cada celda de la grilla en metros
+        self.grid_rows = 5  # Número de filas en la exploración
+        self.grid_cols = 5  # Número de columnas en la exploración
+        self.start_x = -2.0  # Punto inicial en X
+        self.start_y = -2.0  # Punto inicial en Y
+        self.goal_list = self.generate_grid_goals()  # Lista de metas a explorar
+
+        self.state = "GO_TO_GOAL"  # Estados: "GO_TO_GOAL", "FOLLOW_WALL"
+        self.obstacle_detected = False
+        self.current_goal_index = 0  # Índice de la meta actual
+
+        self.get_logger().info("📍 BUG2 Explorador Iniciado")
+        self.create_timer(3.0, self.follow_path)  # ✅ Ejecuta `follow_path()` después de 3 segundos sin bloquear ROS 2
+
+    def lidar_callback(self, msg):
+        """Detecta obstáculos con el LiDAR."""
+        self.get_logger().info("📍 LIDAR Iniciado")
+        front_distance = np.min(msg.ranges[len(msg.ranges)//2 - 10 : len(msg.ranges)//2 + 10])
+        self.obstacle_detected = front_distance < 0.7  # Detecta obstáculos a menos de 0.5m
+
+    def generate_grid_goals(self):
+        """Genera una lista de puntos en una grilla para explorar el mapa."""
+        goals = []
+        for i in range(self.grid_rows):
+            y = self.start_y + i * self.grid_size
+            row = [(self.start_x + j * self.grid_size, y) for j in range(self.grid_cols)]
+            if i % 2 == 1:
+                row.reverse()  # Zig-zag para cubrir todo el mapa
+            goals.extend(row)
+        return goals
+
+    def send_goal(self, x, y):
+        """Envía una meta a Nav2 para moverse hacia el objetivo."""
+        goal_msg = PoseStamped()
+        goal_msg.header.frame_id = "map"
+        goal_msg.header.stamp = self.get_clock().now().to_msg()
+        goal_msg.pose.position.x = x
+        goal_msg.pose.position.y = y
+        goal_msg.pose.orientation.w = 1.0
+
+        self.get_logger().info(f"🛤️ Moviendo a: ({x}, {y})")
+        self.navigator.goToPose(goal_msg)
+
+    def follow_wall(self):
+        """Rodea un obstáculo y luego intenta volver a la exploración."""
+        self.get_logger().info("🔄 Rodeando el obstáculo...")
+        time.sleep(2)  # Simula un giro para evitar el obstáculo
+        self.state = "GO_TO_GOAL"
+        self.follow_path()  # Continúa la exploración
+
+    def follow_path(self):
+        """Navega a través de la lista de metas en la grilla."""
+        while self.current_goal_index < len(self.goal_list):
+            x_goal, y_goal = self.goal_list[self.current_goal_index]
+            self.current_goal_index += 1
+
+            if self.obstacle_detected:
+                self.get_logger().info("⚠️ Obstáculo detectado. Cambiando a FOLLOW_WALL")
+                self.state = "FOLLOW_WALL"
+                self.follow_wall()
+                continue
+
+            self.send_goal(x_goal, y_goal)  # Enviar el robot a la nueva meta
+            time.sleep(7)  # Esperar a que Nav2 navegue antes de continuar
+        
+        self.get_logger().info("✅ Exploración completada. ¡Mapa cubierto!")
+
+def main(args=None):
+    rclpy.init(args=args)
+    node = Bug2Explorer()
+    try:
+        rclpy.spin(node)
+    except KeyboardInterrupt:
+        pass
+    finally:
+        node.destroy_node()
+        rclpy.shutdown()
+
+if __name__ == '__main__':
+    main()
+

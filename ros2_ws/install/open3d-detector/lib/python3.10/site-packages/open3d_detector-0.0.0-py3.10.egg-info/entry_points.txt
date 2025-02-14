@@ -1,0 +1,3 @@
+[console_scripts]
+open3d_detector = opend3d_detector.open3d_detector:main
+

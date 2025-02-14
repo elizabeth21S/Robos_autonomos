@@ -1,0 +1,35 @@
+[0.615s] Invoking command in '/home/elizabeth_s/ros2_ws/build/point_cloud_perception': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elizabeth_s/ros2_ws/install/robot_math:/home/elizabeth_s/ros2_ws/install/ai_assitance:/home/elizabeth_s/ros2_ws/install/open3d-detector:/home/elizabeth_s/ros2_ws/install/rrt_navigation:/opt/ros/humble /usr/bin/cmake --build /home/elizabeth_s/ros2_ws/build/point_cloud_perception -- -j8 -l8
+[2.213s] [ 16%] [32mBuilding CXX object CMakeFiles/clustering.dir/src/clustering.cpp.o[0m
+[2.213s] [ 33%] [32mBuilding CXX object CMakeFiles/planner_seg.dir/src/planner_seg.cpp.o[0m
+[2.214s] [ 50%] [32mBuilding CXX object CMakeFiles/voxeling.dir/src/voxelizing.cpp.o[0m
+[9.074s] [ 66%] [32m[1mLinking CXX executable voxeling[0m
+[9.228s] [ 83%] [32m[1mLinking CXX executable planner_seg[0m
+[10.270s] [ 83%] Built target voxeling
+[10.975s] [ 83%] Built target planner_seg
+[13.437s] [100%] [32m[1mLinking CXX executable clustering[0m
+[15.385s] [100%] Built target clustering
+[15.397s] Invoked command in '/home/elizabeth_s/ros2_ws/build/point_cloud_perception' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elizabeth_s/ros2_ws/install/robot_math:/home/elizabeth_s/ros2_ws/install/ai_assitance:/home/elizabeth_s/ros2_ws/install/open3d-detector:/home/elizabeth_s/ros2_ws/install/rrt_navigation:/opt/ros/humble /usr/bin/cmake --build /home/elizabeth_s/ros2_ws/build/point_cloud_perception -- -j8 -l8
+[15.398s] Invoking command in '/home/elizabeth_s/ros2_ws/build/point_cloud_perception': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elizabeth_s/ros2_ws/install/robot_math:/home/elizabeth_s/ros2_ws/install/ai_assitance:/home/elizabeth_s/ros2_ws/install/open3d-detector:/home/elizabeth_s/ros2_ws/install/rrt_navigation:/opt/ros/humble /usr/bin/cmake --install /home/elizabeth_s/ros2_ws/build/point_cloud_perception
+[15.404s] -- Install configuration: ""
+[15.405s] -- Installing: /home/elizabeth_s/ros2_ws/install/point_cloud_perception/lib/point_cloud_perception/voxeling
+[15.405s] -- Installing: /home/elizabeth_s/ros2_ws/install/point_cloud_perception/lib/point_cloud_perception/planner_seg
+[15.406s] -- Installing: /home/elizabeth_s/ros2_ws/install/point_cloud_perception/lib/point_cloud_perception/clustering
+[15.406s] -- Up-to-date: /home/elizabeth_s/ros2_ws/install/point_cloud_perception/share/point_cloud_perception//launch
+[15.406s] -- Up-to-date: /home/elizabeth_s/ros2_ws/install/point_cloud_perception/share/point_cloud_perception//launch/rtab_mapping.launch.py
+[15.406s] -- Up-to-date: /home/elizabeth_s/ros2_ws/install/point_cloud_perception/share/point_cloud_perception//launch/3d_depth_mapping_rtab.launch.py
+[15.406s] -- Up-to-date: /home/elizabeth_s/ros2_ws/install/point_cloud_perception/share/ament_index/resource_index/package_run_dependencies/point_cloud_perception
+[15.407s] -- Up-to-date: /home/elizabeth_s/ros2_ws/install/point_cloud_perception/share/ament_index/resource_index/parent_prefix_path/point_cloud_perception
+[15.407s] -- Up-to-date: /home/elizabeth_s/ros2_ws/install/point_cloud_perception/share/point_cloud_perception/environment/ament_prefix_path.sh
+[15.407s] -- Up-to-date: /home/elizabeth_s/ros2_ws/install/point_cloud_perception/share/point_cloud_perception/environment/ament_prefix_path.dsv
+[15.407s] -- Up-to-date: /home/elizabeth_s/ros2_ws/install/point_cloud_perception/share/point_cloud_perception/environment/path.sh
+[15.407s] -- Up-to-date: /home/elizabeth_s/ros2_ws/install/point_cloud_perception/share/point_cloud_perception/environment/path.dsv
+[15.407s] -- Up-to-date: /home/elizabeth_s/ros2_ws/install/point_cloud_perception/share/point_cloud_perception/local_setup.bash
+[15.407s] -- Up-to-date: /home/elizabeth_s/ros2_ws/install/point_cloud_perception/share/point_cloud_perception/local_setup.sh
+[15.407s] -- Up-to-date: /home/elizabeth_s/ros2_ws/install/point_cloud_perception/share/point_cloud_perception/local_setup.zsh
+[15.407s] -- Up-to-date: /home/elizabeth_s/ros2_ws/install/point_cloud_perception/share/point_cloud_perception/local_setup.dsv
+[15.407s] -- Installing: /home/elizabeth_s/ros2_ws/install/point_cloud_perception/share/point_cloud_perception/package.dsv
+[15.407s] -- Up-to-date: /home/elizabeth_s/ros2_ws/install/point_cloud_perception/share/ament_index/resource_index/packages/point_cloud_perception
+[15.407s] -- Up-to-date: /home/elizabeth_s/ros2_ws/install/point_cloud_perception/share/point_cloud_perception/cmake/point_cloud_perceptionConfig.cmake
+[15.407s] -- Up-to-date: /home/elizabeth_s/ros2_ws/install/point_cloud_perception/share/point_cloud_perception/cmake/point_cloud_perceptionConfig-version.cmake
+[15.407s] -- Up-to-date: /home/elizabeth_s/ros2_ws/install/point_cloud_perception/share/point_cloud_perception/package.xml
+[15.410s] Invoked command in '/home/elizabeth_s/ros2_ws/build/point_cloud_perception' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elizabeth_s/ros2_ws/install/robot_math:/home/elizabeth_s/ros2_ws/install/ai_assitance:/home/elizabeth_s/ros2_ws/install/open3d-detector:/home/elizabeth_s/ros2_ws/install/rrt_navigation:/opt/ros/humble /usr/bin/cmake --install /home/elizabeth_s/ros2_ws/build/point_cloud_perception

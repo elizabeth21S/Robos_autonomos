@@ -1,0 +1,4 @@
+[1.708s] Invoking command in '/home/elizabeth_s/ros2_ws/build/transforms': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elizabeth_s/ros2_ws/install/robot_math:/home/elizabeth_s/ros2_ws/install/ai_assitance:/home/elizabeth_s/ros2_ws/install/open3d-detector:/home/elizabeth_s/ros2_ws/install/rrt_navigation:/opt/ros/humble /usr/bin/cmake --build /home/elizabeth_s/ros2_ws/build/transforms -- -j8 -l8
+[1.736s] [0mCMake Error: The source directory "/home/elizabeth_s/ros2_ws/ros2_learners/transforms" does not exist.
+[1.736s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[1.739s] gmake: *** [Makefile:431: cmake_check_build_system] Error 1

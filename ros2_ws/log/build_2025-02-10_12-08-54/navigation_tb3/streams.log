@@ -1,0 +1,5 @@
+[0.595s] Invoking command in '/home/elizabeth_s/ros2_ws/build/navigation_tb3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elizabeth_s/ros2_ws/install/robot_math:/home/elizabeth_s/ros2_ws/install/ai_assitance:/home/elizabeth_s/ros2_ws/install/open3d-detector:/home/elizabeth_s/ros2_ws/install/rrt_navigation:/opt/ros/humble /usr/bin/cmake --build /home/elizabeth_s/ros2_ws/build/navigation_tb3 -- -j8 -l8
+[1.744s] [0mCMake Error: The source directory "/home/elizabeth_s/ros2_ws/ros2_learners/navigation_tb3" does not exist.
+[1.744s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[1.744s] gmake: *** [Makefile:295: cmake_check_build_system] Error 1
+[1.752s] Invoked command in '/home/elizabeth_s/ros2_ws/build/navigation_tb3' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elizabeth_s/ros2_ws/install/robot_math:/home/elizabeth_s/ros2_ws/install/ai_assitance:/home/elizabeth_s/ros2_ws/install/open3d-detector:/home/elizabeth_s/ros2_ws/install/rrt_navigation:/opt/ros/humble /usr/bin/cmake --build /home/elizabeth_s/ros2_ws/build/navigation_tb3 -- -j8 -l8

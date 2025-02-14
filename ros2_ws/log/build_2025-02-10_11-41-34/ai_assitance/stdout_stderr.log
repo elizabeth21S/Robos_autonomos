@@ -1,0 +1,43 @@
+running egg_info
+creating ../../build/ai_assitance/ai_assitance.egg-info
+writing ../../build/ai_assitance/ai_assitance.egg-info/PKG-INFO
+writing dependency_links to ../../build/ai_assitance/ai_assitance.egg-info/dependency_links.txt
+writing entry points to ../../build/ai_assitance/ai_assitance.egg-info/entry_points.txt
+writing requirements to ../../build/ai_assitance/ai_assitance.egg-info/requires.txt
+writing top-level names to ../../build/ai_assitance/ai_assitance.egg-info/top_level.txt
+writing manifest file '../../build/ai_assitance/ai_assitance.egg-info/SOURCES.txt'
+reading manifest file '../../build/ai_assitance/ai_assitance.egg-info/SOURCES.txt'
+writing manifest file '../../build/ai_assitance/ai_assitance.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/elizabeth_s/ros2_ws/build/ai_assitance/build
+creating /home/elizabeth_s/ros2_ws/build/ai_assitance/build/lib
+creating /home/elizabeth_s/ros2_ws/build/ai_assitance/build/lib/ai_assitance
+copying ai_assitance/circle_motion.py -> /home/elizabeth_s/ros2_ws/build/ai_assitance/build/lib/ai_assitance
+copying ai_assitance/obstacle_avoidence.py -> /home/elizabeth_s/ros2_ws/build/ai_assitance/build/lib/ai_assitance
+copying ai_assitance/__init__.py -> /home/elizabeth_s/ros2_ws/build/ai_assitance/build/lib/ai_assitance
+running install
+running install_lib
+creating /home/elizabeth_s/ros2_ws/install/ai_assitance/lib/python3.10/site-packages/ai_assitance
+copying /home/elizabeth_s/ros2_ws/build/ai_assitance/build/lib/ai_assitance/circle_motion.py -> /home/elizabeth_s/ros2_ws/install/ai_assitance/lib/python3.10/site-packages/ai_assitance
+copying /home/elizabeth_s/ros2_ws/build/ai_assitance/build/lib/ai_assitance/obstacle_avoidence.py -> /home/elizabeth_s/ros2_ws/install/ai_assitance/lib/python3.10/site-packages/ai_assitance
+copying /home/elizabeth_s/ros2_ws/build/ai_assitance/build/lib/ai_assitance/__init__.py -> /home/elizabeth_s/ros2_ws/install/ai_assitance/lib/python3.10/site-packages/ai_assitance
+byte-compiling /home/elizabeth_s/ros2_ws/install/ai_assitance/lib/python3.10/site-packages/ai_assitance/circle_motion.py to circle_motion.cpython-310.pyc
+byte-compiling /home/elizabeth_s/ros2_ws/install/ai_assitance/lib/python3.10/site-packages/ai_assitance/obstacle_avoidence.py to obstacle_avoidence.cpython-310.pyc
+byte-compiling /home/elizabeth_s/ros2_ws/install/ai_assitance/lib/python3.10/site-packages/ai_assitance/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/elizabeth_s/ros2_ws/install/ai_assitance/share/ament_index
+creating /home/elizabeth_s/ros2_ws/install/ai_assitance/share/ament_index/resource_index
+creating /home/elizabeth_s/ros2_ws/install/ai_assitance/share/ament_index/resource_index/packages
+copying resource/ai_assitance -> /home/elizabeth_s/ros2_ws/install/ai_assitance/share/ament_index/resource_index/packages
+copying package.xml -> /home/elizabeth_s/ros2_ws/install/ai_assitance/share/ai_assitance
+creating /home/elizabeth_s/ros2_ws/install/ai_assitance/share/ai_assitance/urdf
+copying urdf/dolly.urdf -> /home/elizabeth_s/ros2_ws/install/ai_assitance/share/ai_assitance/urdf
+creating /home/elizabeth_s/ros2_ws/install/ai_assitance/share/ai_assitance/launch
+copying launch/gazebo_bringup.launch.py -> /home/elizabeth_s/ros2_ws/install/ai_assitance/share/ai_assitance/launch
+running install_egg_info
+Copying ../../build/ai_assitance/ai_assitance.egg-info to /home/elizabeth_s/ros2_ws/install/ai_assitance/lib/python3.10/site-packages/ai_assitance-0.0.0-py3.10.egg-info
+running install_scripts
+Installing my_circle_movement script to /home/elizabeth_s/ros2_ws/install/ai_assitance/lib/ai_assitance
+Installing obstacle_avoiding_node script to /home/elizabeth_s/ros2_ws/install/ai_assitance/lib/ai_assitance
+writing list of installed files to '/home/elizabeth_s/ros2_ws/build/ai_assitance/install.log'

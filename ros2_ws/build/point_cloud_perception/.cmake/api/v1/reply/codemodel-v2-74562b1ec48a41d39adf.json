@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-1b544eff24b5202f6df8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "point_cloud_perception",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "clustering::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-clustering-7d7e2a5bdd26c3edd314.json",
+					"name" : "clustering",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "planner_seg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-planner_seg-23499b0b477bd3d91a84.json",
+					"name" : "planner_seg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "point_cloud_perception_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-point_cloud_perception_uninstall-4ee4c4c6ed7ec7827e72.json",
+					"name" : "point_cloud_perception_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4cde14ae63c799522ba8.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "voxeling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-voxeling-c35852772beba190a8bd.json",
+					"name" : "voxeling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/elizabeth_s/ros2_ws/build/point_cloud_perception",
+		"source" : "/home/elizabeth_s/ros2_ws/ros2_learners/point_cloud_perception"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

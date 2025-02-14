@@ -1,0 +1,4 @@
+[console_scripts]
+rrt_navigation = rrt_navigation.rrt_navigation:main
+test_camera = rrt_navigation.test_camera:main
+

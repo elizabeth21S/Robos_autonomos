@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../build/open3d-detector/open3d_detector.egg-info/PKG-INFO
+../build/open3d-detector/open3d_detector.egg-info/SOURCES.txt
+../build/open3d-detector/open3d_detector.egg-info/dependency_links.txt
+../build/open3d-detector/open3d_detector.egg-info/entry_points.txt
+../build/open3d-detector/open3d_detector.egg-info/requires.txt
+../build/open3d-detector/open3d_detector.egg-info/top_level.txt
+../build/open3d-detector/open3d_detector.egg-info/zip-safe
+open3d-detector/__init__.py
+open3d-detector/open3d_detector.py
+resource/open3d-detector
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,22 @@
+[0.948s] Invoking command in '/home/elizabeth_s/ros2_ws/src/rrt_navigation': PYTHONPATH=/home/elizabeth_s/ros2_ws/build/rrt_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/elizabeth_s/ros2_ws/install/rrt_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rrt_navigation build --build-base /home/elizabeth_s/ros2_ws/build/rrt_navigation/build install --record /home/elizabeth_s/ros2_ws/build/rrt_navigation/install.log --single-version-externally-managed install_data
+[1.208s] running egg_info
+[1.209s] writing ../../build/rrt_navigation/rrt_navigation.egg-info/PKG-INFO
+[1.218s] writing dependency_links to ../../build/rrt_navigation/rrt_navigation.egg-info/dependency_links.txt
+[1.218s] writing entry points to ../../build/rrt_navigation/rrt_navigation.egg-info/entry_points.txt
+[1.218s] writing requirements to ../../build/rrt_navigation/rrt_navigation.egg-info/requires.txt
+[1.218s] writing top-level names to ../../build/rrt_navigation/rrt_navigation.egg-info/top_level.txt
+[1.221s] reading manifest file '../../build/rrt_navigation/rrt_navigation.egg-info/SOURCES.txt'
+[1.222s] writing manifest file '../../build/rrt_navigation/rrt_navigation.egg-info/SOURCES.txt'
+[1.222s] running build
+[1.223s] running build_py
+[1.223s] running install
+[1.224s] running install_lib
+[1.225s] running install_data
+[1.226s] running install_egg_info
+[1.228s] removing '/home/elizabeth_s/ros2_ws/install/rrt_navigation/lib/python3.10/site-packages/rrt_navigation-0.0.0-py3.10.egg-info' (and everything under it)
+[1.228s] Copying ../../build/rrt_navigation/rrt_navigation.egg-info to /home/elizabeth_s/ros2_ws/install/rrt_navigation/lib/python3.10/site-packages/rrt_navigation-0.0.0-py3.10.egg-info
+[1.229s] running install_scripts
+[1.252s] Installing rrt_navigation script to /home/elizabeth_s/ros2_ws/install/rrt_navigation/lib/rrt_navigation
+[1.252s] Installing test_camera script to /home/elizabeth_s/ros2_ws/install/rrt_navigation/lib/rrt_navigation
+[1.253s] writing list of installed files to '/home/elizabeth_s/ros2_ws/build/rrt_navigation/install.log'
+[1.273s] Invoked command in '/home/elizabeth_s/ros2_ws/src/rrt_navigation' returned '0': PYTHONPATH=/home/elizabeth_s/ros2_ws/build/rrt_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/elizabeth_s/ros2_ws/install/rrt_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rrt_navigation build --build-base /home/elizabeth_s/ros2_ws/build/rrt_navigation/build install --record /home/elizabeth_s/ros2_ws/build/rrt_navigation/install.log --single-version-externally-managed install_data

@@ -1,0 +1,4 @@
+[console_scripts]
+my_circle_movement = ai_assitance.circle_motion:main
+obstacle_avoiding_node = ai_assitance.obstacle_avoidence:main
+

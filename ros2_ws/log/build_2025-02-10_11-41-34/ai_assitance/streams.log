@@ -1,0 +1,45 @@
+[2.667s] Invoking command in '/home/elizabeth_s/ros2_ws/ros2_learners/ai_assitance': PYTHONPATH=/home/elizabeth_s/ros2_ws/build/ai_assitance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/elizabeth_s/ros2_ws/install/ai_assitance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ai_assitance build --build-base /home/elizabeth_s/ros2_ws/build/ai_assitance/build install --record /home/elizabeth_s/ros2_ws/build/ai_assitance/install.log --single-version-externally-managed install_data
+[3.384s] running egg_info
+[3.384s] creating ../../build/ai_assitance/ai_assitance.egg-info
+[3.385s] writing ../../build/ai_assitance/ai_assitance.egg-info/PKG-INFO
+[3.386s] writing dependency_links to ../../build/ai_assitance/ai_assitance.egg-info/dependency_links.txt
+[3.388s] writing entry points to ../../build/ai_assitance/ai_assitance.egg-info/entry_points.txt
+[3.389s] writing requirements to ../../build/ai_assitance/ai_assitance.egg-info/requires.txt
+[3.389s] writing top-level names to ../../build/ai_assitance/ai_assitance.egg-info/top_level.txt
+[3.392s] writing manifest file '../../build/ai_assitance/ai_assitance.egg-info/SOURCES.txt'
+[3.398s] reading manifest file '../../build/ai_assitance/ai_assitance.egg-info/SOURCES.txt'
+[3.405s] writing manifest file '../../build/ai_assitance/ai_assitance.egg-info/SOURCES.txt'
+[3.406s] running build
+[3.406s] running build_py
+[3.406s] creating /home/elizabeth_s/ros2_ws/build/ai_assitance/build
+[3.409s] creating /home/elizabeth_s/ros2_ws/build/ai_assitance/build/lib
+[3.409s] creating /home/elizabeth_s/ros2_ws/build/ai_assitance/build/lib/ai_assitance
+[3.409s] copying ai_assitance/circle_motion.py -> /home/elizabeth_s/ros2_ws/build/ai_assitance/build/lib/ai_assitance
+[3.409s] copying ai_assitance/obstacle_avoidence.py -> /home/elizabeth_s/ros2_ws/build/ai_assitance/build/lib/ai_assitance
+[3.413s] copying ai_assitance/__init__.py -> /home/elizabeth_s/ros2_ws/build/ai_assitance/build/lib/ai_assitance
+[3.413s] running install
+[3.414s] running install_lib
+[3.417s] creating /home/elizabeth_s/ros2_ws/install/ai_assitance/lib/python3.10/site-packages/ai_assitance
+[3.417s] copying /home/elizabeth_s/ros2_ws/build/ai_assitance/build/lib/ai_assitance/circle_motion.py -> /home/elizabeth_s/ros2_ws/install/ai_assitance/lib/python3.10/site-packages/ai_assitance
+[3.417s] copying /home/elizabeth_s/ros2_ws/build/ai_assitance/build/lib/ai_assitance/obstacle_avoidence.py -> /home/elizabeth_s/ros2_ws/install/ai_assitance/lib/python3.10/site-packages/ai_assitance
+[3.418s] copying /home/elizabeth_s/ros2_ws/build/ai_assitance/build/lib/ai_assitance/__init__.py -> /home/elizabeth_s/ros2_ws/install/ai_assitance/lib/python3.10/site-packages/ai_assitance
+[3.419s] byte-compiling /home/elizabeth_s/ros2_ws/install/ai_assitance/lib/python3.10/site-packages/ai_assitance/circle_motion.py to circle_motion.cpython-310.pyc
+[3.422s] byte-compiling /home/elizabeth_s/ros2_ws/install/ai_assitance/lib/python3.10/site-packages/ai_assitance/obstacle_avoidence.py to obstacle_avoidence.cpython-310.pyc
+[3.428s] byte-compiling /home/elizabeth_s/ros2_ws/install/ai_assitance/lib/python3.10/site-packages/ai_assitance/__init__.py to __init__.cpython-310.pyc
+[3.428s] running install_data
+[3.428s] creating /home/elizabeth_s/ros2_ws/install/ai_assitance/share/ament_index
+[3.428s] creating /home/elizabeth_s/ros2_ws/install/ai_assitance/share/ament_index/resource_index
+[3.429s] creating /home/elizabeth_s/ros2_ws/install/ai_assitance/share/ament_index/resource_index/packages
+[3.429s] copying resource/ai_assitance -> /home/elizabeth_s/ros2_ws/install/ai_assitance/share/ament_index/resource_index/packages
+[3.429s] copying package.xml -> /home/elizabeth_s/ros2_ws/install/ai_assitance/share/ai_assitance
+[3.433s] creating /home/elizabeth_s/ros2_ws/install/ai_assitance/share/ai_assitance/urdf
+[3.433s] copying urdf/dolly.urdf -> /home/elizabeth_s/ros2_ws/install/ai_assitance/share/ai_assitance/urdf
+[3.433s] creating /home/elizabeth_s/ros2_ws/install/ai_assitance/share/ai_assitance/launch
+[3.433s] copying launch/gazebo_bringup.launch.py -> /home/elizabeth_s/ros2_ws/install/ai_assitance/share/ai_assitance/launch
+[3.433s] running install_egg_info
+[3.439s] Copying ../../build/ai_assitance/ai_assitance.egg-info to /home/elizabeth_s/ros2_ws/install/ai_assitance/lib/python3.10/site-packages/ai_assitance-0.0.0-py3.10.egg-info
+[3.443s] running install_scripts
+[3.533s] Installing my_circle_movement script to /home/elizabeth_s/ros2_ws/install/ai_assitance/lib/ai_assitance
+[3.533s] Installing obstacle_avoiding_node script to /home/elizabeth_s/ros2_ws/install/ai_assitance/lib/ai_assitance
+[3.534s] writing list of installed files to '/home/elizabeth_s/ros2_ws/build/ai_assitance/install.log'
+[3.597s] Invoked command in '/home/elizabeth_s/ros2_ws/ros2_learners/ai_assitance' returned '0': PYTHONPATH=/home/elizabeth_s/ros2_ws/build/ai_assitance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/elizabeth_s/ros2_ws/install/ai_assitance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ai_assitance build --build-base /home/elizabeth_s/ros2_ws/build/ai_assitance/build install --record /home/elizabeth_s/ros2_ws/build/ai_assitance/install.log --single-version-externally-managed install_data

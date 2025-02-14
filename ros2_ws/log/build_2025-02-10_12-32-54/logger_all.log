@@ -1,0 +1,511 @@
+[0.094s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.094s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7590b4841480>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7590b49923e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7590b49923e0>>, mixin_verb=('build',))
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.257s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/elizabeth_s/ros2_ws'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners) by extension 'ignore_ament_install'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners) by extensions ['colcon_pkg']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners) by extension 'colcon_pkg'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners) by extensions ['colcon_meta']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners) by extension 'colcon_meta'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners) by extensions ['ros']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners) by extension 'ros'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners) by extensions ['cmake', 'python']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners) by extension 'cmake'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners) by extension 'python'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners) by extensions ['python_setup_py']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners) by extension 'python_setup_py'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/ai_assitance) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/ai_assitance) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/ai_assitance) by extension 'ignore_ament_install'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/ai_assitance) by extensions ['colcon_pkg']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/ai_assitance) by extension 'colcon_pkg'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/ai_assitance) by extensions ['colcon_meta']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/ai_assitance) by extension 'colcon_meta'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/ai_assitance) by extensions ['ros']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/ai_assitance) by extension 'ros'
+[0.277s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_learners/ai_assitance' with type 'ros.ament_python' and name 'ai_assitance'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/navigation_tb3) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/navigation_tb3) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/navigation_tb3) by extension 'ignore_ament_install'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/navigation_tb3) by extensions ['colcon_pkg']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/navigation_tb3) by extension 'colcon_pkg'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/navigation_tb3) by extensions ['colcon_meta']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/navigation_tb3) by extension 'colcon_meta'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/navigation_tb3) by extensions ['ros']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/navigation_tb3) by extension 'ros'
+[0.278s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_learners/navigation_tb3' with type 'ros.ament_cmake' and name 'navigation_tb3'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/nodes) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/nodes) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/nodes) by extension 'ignore_ament_install'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/nodes) by extensions ['colcon_pkg']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/nodes) by extension 'colcon_pkg'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/nodes) by extensions ['colcon_meta']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/nodes) by extension 'colcon_meta'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/nodes) by extensions ['ros']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/nodes) by extension 'ros'
+[0.279s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_learners/nodes' with type 'ros.ament_cmake' and name 'nodes'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/point_cloud_perception) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/point_cloud_perception) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/point_cloud_perception) by extension 'ignore_ament_install'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/point_cloud_perception) by extensions ['colcon_pkg']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/point_cloud_perception) by extension 'colcon_pkg'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/point_cloud_perception) by extensions ['colcon_meta']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/point_cloud_perception) by extension 'colcon_meta'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/point_cloud_perception) by extensions ['ros']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/point_cloud_perception) by extension 'ros'
+[0.280s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_learners/point_cloud_perception' with type 'ros.ament_cmake' and name 'point_cloud_perception'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/resources) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/resources) by extension 'ignore'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/resources) by extension 'ignore_ament_install'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/resources) by extensions ['colcon_pkg']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/resources) by extension 'colcon_pkg'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/resources) by extensions ['colcon_meta']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/resources) by extension 'colcon_meta'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/resources) by extensions ['ros']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/resources) by extension 'ros'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/resources) by extensions ['cmake', 'python']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/resources) by extension 'cmake'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/resources) by extension 'python'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/resources) by extensions ['python_setup_py']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/resources) by extension 'python_setup_py'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/robot_math) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/robot_math) by extension 'ignore'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/robot_math) by extension 'ignore_ament_install'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/robot_math) by extensions ['colcon_pkg']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/robot_math) by extension 'colcon_pkg'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/robot_math) by extensions ['colcon_meta']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/robot_math) by extension 'colcon_meta'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/robot_math) by extensions ['ros']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/robot_math) by extension 'ros'
+[0.282s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_learners/robot_math' with type 'ros.ament_python' and name 'robot_math'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/transforms) by extensions ['ignore', 'ignore_ament_install']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/transforms) by extension 'ignore'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/transforms) by extension 'ignore_ament_install'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/transforms) by extensions ['colcon_pkg']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/transforms) by extension 'colcon_pkg'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/transforms) by extensions ['colcon_meta']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/transforms) by extension 'colcon_meta'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/transforms) by extensions ['ros']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_learners/transforms) by extension 'ros'
+[0.282s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_learners/transforms' with type 'ros.ament_cmake' and name 'transforms'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrt_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrt_navigation) by extension 'ignore'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrt_navigation) by extension 'ignore_ament_install'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrt_navigation) by extensions ['colcon_pkg']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrt_navigation) by extension 'colcon_pkg'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrt_navigation) by extensions ['colcon_meta']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrt_navigation) by extension 'colcon_meta'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrt_navigation) by extensions ['ros']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrt_navigation) by extension 'ros'
+[0.284s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rrt_navigation' with type 'ros.ament_python' and name 'rrt_navigation'
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.303s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 9 installed packages in /home/elizabeth_s/ros2_ws/install
+[0.304s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 414 installed packages in /opt/ros/humble
+[0.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'ai_assitance' build argument 'cmake_args' from command line to 'None'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'ai_assitance' build argument 'cmake_target' from command line to 'None'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'ai_assitance' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'ai_assitance' build argument 'cmake_clean_cache' from command line to 'False'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'ai_assitance' build argument 'cmake_clean_first' from command line to 'False'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'ai_assitance' build argument 'cmake_force_configure' from command line to 'False'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'ai_assitance' build argument 'ament_cmake_args' from command line to 'None'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'ai_assitance' build argument 'catkin_cmake_args' from command line to 'None'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'ai_assitance' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.351s] DEBUG:colcon.colcon_core.verb:Building package 'ai_assitance' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/elizabeth_s/ros2_ws/build/ai_assitance', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/elizabeth_s/ros2_ws/install/ai_assitance', 'merge_install': False, 'path': '/home/elizabeth_s/ros2_ws/ros2_learners/ai_assitance', 'symlink_install': False, 'test_result_base': None}
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'navigation_tb3' build argument 'cmake_args' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'navigation_tb3' build argument 'cmake_target' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'navigation_tb3' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'navigation_tb3' build argument 'cmake_clean_cache' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'navigation_tb3' build argument 'cmake_clean_first' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'navigation_tb3' build argument 'cmake_force_configure' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'navigation_tb3' build argument 'ament_cmake_args' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'navigation_tb3' build argument 'catkin_cmake_args' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'navigation_tb3' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.352s] DEBUG:colcon.colcon_core.verb:Building package 'navigation_tb3' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/elizabeth_s/ros2_ws/build/navigation_tb3', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/elizabeth_s/ros2_ws/install/navigation_tb3', 'merge_install': False, 'path': '/home/elizabeth_s/ros2_ws/ros2_learners/navigation_tb3', 'symlink_install': False, 'test_result_base': None}
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'nodes' build argument 'cmake_args' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'nodes' build argument 'cmake_target' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'nodes' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'nodes' build argument 'cmake_clean_cache' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'nodes' build argument 'cmake_clean_first' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'nodes' build argument 'cmake_force_configure' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'nodes' build argument 'ament_cmake_args' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'nodes' build argument 'catkin_cmake_args' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'nodes' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.352s] DEBUG:colcon.colcon_core.verb:Building package 'nodes' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/elizabeth_s/ros2_ws/build/nodes', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/elizabeth_s/ros2_ws/install/nodes', 'merge_install': False, 'path': '/home/elizabeth_s/ros2_ws/ros2_learners/nodes', 'symlink_install': False, 'test_result_base': None}
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_perception' build argument 'cmake_args' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_perception' build argument 'cmake_target' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_perception' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_perception' build argument 'cmake_clean_cache' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_perception' build argument 'cmake_clean_first' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_perception' build argument 'cmake_force_configure' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_perception' build argument 'ament_cmake_args' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_perception' build argument 'catkin_cmake_args' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_perception' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.353s] DEBUG:colcon.colcon_core.verb:Building package 'point_cloud_perception' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/elizabeth_s/ros2_ws/build/point_cloud_perception', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/elizabeth_s/ros2_ws/install/point_cloud_perception', 'merge_install': False, 'path': '/home/elizabeth_s/ros2_ws/ros2_learners/point_cloud_perception', 'symlink_install': False, 'test_result_base': None}
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'robot_math' build argument 'cmake_args' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'robot_math' build argument 'cmake_target' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'robot_math' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'robot_math' build argument 'cmake_clean_cache' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'robot_math' build argument 'cmake_clean_first' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'robot_math' build argument 'cmake_force_configure' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'robot_math' build argument 'ament_cmake_args' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'robot_math' build argument 'catkin_cmake_args' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'robot_math' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.353s] DEBUG:colcon.colcon_core.verb:Building package 'robot_math' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/elizabeth_s/ros2_ws/build/robot_math', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/elizabeth_s/ros2_ws/install/robot_math', 'merge_install': False, 'path': '/home/elizabeth_s/ros2_ws/ros2_learners/robot_math', 'symlink_install': False, 'test_result_base': None}
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'rrt_navigation' build argument 'cmake_args' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'rrt_navigation' build argument 'cmake_target' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'rrt_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'rrt_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'rrt_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'rrt_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'rrt_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'rrt_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'rrt_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.354s] DEBUG:colcon.colcon_core.verb:Building package 'rrt_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/elizabeth_s/ros2_ws/build/rrt_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/elizabeth_s/ros2_ws/install/rrt_navigation', 'merge_install': False, 'path': '/home/elizabeth_s/ros2_ws/src/rrt_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'transforms' build argument 'cmake_args' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'transforms' build argument 'cmake_target' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'transforms' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'transforms' build argument 'cmake_clean_cache' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'transforms' build argument 'cmake_clean_first' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'transforms' build argument 'cmake_force_configure' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'transforms' build argument 'ament_cmake_args' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'transforms' build argument 'catkin_cmake_args' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'transforms' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.354s] DEBUG:colcon.colcon_core.verb:Building package 'transforms' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/elizabeth_s/ros2_ws/build/transforms', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/elizabeth_s/ros2_ws/install/transforms', 'merge_install': False, 'path': '/home/elizabeth_s/ros2_ws/ros2_learners/transforms', 'symlink_install': False, 'test_result_base': None}
+[0.354s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.355s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.356s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/elizabeth_s/ros2_ws/ros2_learners/ai_assitance' with build type 'ament_python'
+[0.356s] Level 1:colcon.colcon_core.shell:create_environment_hook('ai_assitance', 'ament_prefix_path')
+[0.357s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/elizabeth_s/ros2_ws/install/ai_assitance/share/ai_assitance/hook/ament_prefix_path.ps1'
+[0.358s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/elizabeth_s/ros2_ws/install/ai_assitance/share/ai_assitance/hook/ament_prefix_path.dsv'
+[0.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/elizabeth_s/ros2_ws/install/ai_assitance/share/ai_assitance/hook/ament_prefix_path.sh'
+[0.359s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.359s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.362s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/elizabeth_s/ros2_ws/ros2_learners/navigation_tb3' with build type 'ament_cmake'
+[0.363s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/elizabeth_s/ros2_ws/ros2_learners/navigation_tb3'
+[0.363s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.363s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.366s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/elizabeth_s/ros2_ws/ros2_learners/nodes' with build type 'ament_cmake'
+[0.366s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/elizabeth_s/ros2_ws/ros2_learners/nodes'
+[0.366s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.366s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.371s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/elizabeth_s/ros2_ws/ros2_learners/point_cloud_perception' with build type 'ament_cmake'
+[0.371s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/elizabeth_s/ros2_ws/ros2_learners/point_cloud_perception'
+[0.371s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.371s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.375s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/elizabeth_s/ros2_ws/ros2_learners/robot_math' with build type 'ament_python'
+[0.375s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_math', 'ament_prefix_path')
+[0.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/elizabeth_s/ros2_ws/install/robot_math/share/robot_math/hook/ament_prefix_path.ps1'
+[0.376s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/elizabeth_s/ros2_ws/install/robot_math/share/robot_math/hook/ament_prefix_path.dsv'
+[0.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/elizabeth_s/ros2_ws/install/robot_math/share/robot_math/hook/ament_prefix_path.sh'
+[0.376s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.376s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.379s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/elizabeth_s/ros2_ws/src/rrt_navigation' with build type 'ament_python'
+[0.380s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrt_navigation', 'ament_prefix_path')
+[0.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/elizabeth_s/ros2_ws/install/rrt_navigation/share/rrt_navigation/hook/ament_prefix_path.ps1'
+[0.380s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/elizabeth_s/ros2_ws/install/rrt_navigation/share/rrt_navigation/hook/ament_prefix_path.dsv'
+[0.381s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/elizabeth_s/ros2_ws/install/rrt_navigation/share/rrt_navigation/hook/ament_prefix_path.sh'
+[0.381s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.381s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.384s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/elizabeth_s/ros2_ws/ros2_learners/transforms' with build type 'ament_cmake'
+[0.385s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/elizabeth_s/ros2_ws/ros2_learners/transforms'
+[0.385s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.385s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.641s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/elizabeth_s/ros2_ws/ros2_learners/ai_assitance'
+[0.641s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.642s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.649s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/elizabeth_s/ros2_ws/build/navigation_tb3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elizabeth_s/ros2_ws/install/robot_math:/home/elizabeth_s/ros2_ws/install/ai_assitance:/home/elizabeth_s/ros2_ws/install/open3d-detector:/home/elizabeth_s/ros2_ws/install/rrt_navigation:/opt/ros/humble /usr/bin/cmake --build /home/elizabeth_s/ros2_ws/build/navigation_tb3 -- -j8 -l8
+[0.652s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/elizabeth_s/ros2_ws/build/nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elizabeth_s/ros2_ws/install/robot_math:/home/elizabeth_s/ros2_ws/install/ai_assitance:/home/elizabeth_s/ros2_ws/install/open3d-detector:/home/elizabeth_s/ros2_ws/install/rrt_navigation:/opt/ros/humble /usr/bin/cmake --build /home/elizabeth_s/ros2_ws/build/nodes -- -j8 -l8
+[0.657s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/elizabeth_s/ros2_ws/build/point_cloud_perception': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elizabeth_s/ros2_ws/install/robot_math:/home/elizabeth_s/ros2_ws/install/ai_assitance:/home/elizabeth_s/ros2_ws/install/open3d-detector:/home/elizabeth_s/ros2_ws/install/rrt_navigation:/opt/ros/humble /usr/bin/cmake --build /home/elizabeth_s/ros2_ws/build/point_cloud_perception -- -j8 -l8
+[0.972s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/elizabeth_s/ros2_ws/ros2_learners/robot_math'
+[0.972s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.972s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.290s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/elizabeth_s/ros2_ws/src/rrt_navigation'
+[1.291s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.291s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.300s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/elizabeth_s/ros2_ws/build/transforms': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elizabeth_s/ros2_ws/install/robot_math:/home/elizabeth_s/ros2_ws/install/ai_assitance:/home/elizabeth_s/ros2_ws/install/open3d-detector:/home/elizabeth_s/ros2_ws/install/rrt_navigation:/opt/ros/humble /usr/bin/cmake --build /home/elizabeth_s/ros2_ws/build/transforms -- -j8 -l8
+[1.302s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/elizabeth_s/ros2_ws/build/nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elizabeth_s/ros2_ws/install/robot_math:/home/elizabeth_s/ros2_ws/install/ai_assitance:/home/elizabeth_s/ros2_ws/install/open3d-detector:/home/elizabeth_s/ros2_ws/install/rrt_navigation:/opt/ros/humble /usr/bin/cmake --build /home/elizabeth_s/ros2_ws/build/nodes -- -j8 -l8
+[1.310s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/elizabeth_s/ros2_ws/build/nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elizabeth_s/ros2_ws/install/robot_math:/home/elizabeth_s/ros2_ws/install/ai_assitance:/home/elizabeth_s/ros2_ws/install/open3d-detector:/home/elizabeth_s/ros2_ws/install/rrt_navigation:/opt/ros/humble /usr/bin/cmake --install /home/elizabeth_s/ros2_ws/build/nodes
+[1.310s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/elizabeth_s/ros2_ws/build/point_cloud_perception' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elizabeth_s/ros2_ws/install/robot_math:/home/elizabeth_s/ros2_ws/install/ai_assitance:/home/elizabeth_s/ros2_ws/install/open3d-detector:/home/elizabeth_s/ros2_ws/install/rrt_navigation:/opt/ros/humble /usr/bin/cmake --build /home/elizabeth_s/ros2_ws/build/point_cloud_perception -- -j8 -l8
+[1.312s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/elizabeth_s/ros2_ws/build/point_cloud_perception': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elizabeth_s/ros2_ws/install/robot_math:/home/elizabeth_s/ros2_ws/install/ai_assitance:/home/elizabeth_s/ros2_ws/install/open3d-detector:/home/elizabeth_s/ros2_ws/install/rrt_navigation:/opt/ros/humble /usr/bin/cmake --install /home/elizabeth_s/ros2_ws/build/point_cloud_perception
+[1.312s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/elizabeth_s/ros2_ws/build/navigation_tb3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elizabeth_s/ros2_ws/install/robot_math:/home/elizabeth_s/ros2_ws/install/ai_assitance:/home/elizabeth_s/ros2_ws/install/open3d-detector:/home/elizabeth_s/ros2_ws/install/rrt_navigation:/opt/ros/humble /usr/bin/cmake --build /home/elizabeth_s/ros2_ws/build/navigation_tb3 -- -j8 -l8
+[1.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/elizabeth_s/ros2_ws/build/navigation_tb3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elizabeth_s/ros2_ws/install/robot_math:/home/elizabeth_s/ros2_ws/install/ai_assitance:/home/elizabeth_s/ros2_ws/install/open3d-detector:/home/elizabeth_s/ros2_ws/install/rrt_navigation:/opt/ros/humble /usr/bin/cmake --install /home/elizabeth_s/ros2_ws/build/navigation_tb3
+[1.334s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nodes)
+[1.338s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/nodes' for CMake module files
+[1.339s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/elizabeth_s/ros2_ws/build/nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elizabeth_s/ros2_ws/install/robot_math:/home/elizabeth_s/ros2_ws/install/ai_assitance:/home/elizabeth_s/ros2_ws/install/open3d-detector:/home/elizabeth_s/ros2_ws/install/rrt_navigation:/opt/ros/humble /usr/bin/cmake --install /home/elizabeth_s/ros2_ws/build/nodes
+[1.343s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/nodes' for CMake config files
+[1.343s] Level 1:colcon.colcon_core.shell:create_environment_hook('nodes', 'cmake_prefix_path')
+[1.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/elizabeth_s/ros2_ws/install/nodes/share/nodes/hook/cmake_prefix_path.ps1'
+[1.345s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/elizabeth_s/ros2_ws/install/nodes/share/nodes/hook/cmake_prefix_path.dsv'
+[1.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/elizabeth_s/ros2_ws/install/nodes/share/nodes/hook/cmake_prefix_path.sh'
+[1.350s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/nodes/lib'
+[1.351s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/nodes/bin'
+[1.351s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/nodes/lib/pkgconfig/nodes.pc'
+[1.351s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/nodes/lib/python3.10/site-packages'
+[1.352s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/nodes/bin'
+[1.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/elizabeth_s/ros2_ws/install/nodes/share/nodes/package.ps1'
+[1.358s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/elizabeth_s/ros2_ws/install/nodes/share/nodes/package.dsv'
+[1.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/elizabeth_s/ros2_ws/install/nodes/share/nodes/package.sh'
+[1.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/elizabeth_s/ros2_ws/install/nodes/share/nodes/package.bash'
+[1.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/elizabeth_s/ros2_ws/install/nodes/share/nodes/package.zsh'
+[1.368s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/elizabeth_s/ros2_ws/install/nodes/share/colcon-core/packages/nodes)
+[1.369s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nodes)
+[1.370s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/nodes' for CMake module files
+[1.371s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/nodes' for CMake config files
+[1.371s] Level 1:colcon.colcon_core.shell:create_environment_hook('nodes', 'cmake_prefix_path')
+[1.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/elizabeth_s/ros2_ws/install/nodes/share/nodes/hook/cmake_prefix_path.ps1'
+[1.372s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/elizabeth_s/ros2_ws/install/nodes/share/nodes/hook/cmake_prefix_path.dsv'
+[1.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/elizabeth_s/ros2_ws/install/nodes/share/nodes/hook/cmake_prefix_path.sh'
+[1.374s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/nodes/lib'
+[1.374s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/nodes/bin'
+[1.374s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/nodes/lib/pkgconfig/nodes.pc'
+[1.375s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/nodes/lib/python3.10/site-packages'
+[1.375s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/nodes/bin'
+[1.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/elizabeth_s/ros2_ws/install/nodes/share/nodes/package.ps1'
+[1.377s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/elizabeth_s/ros2_ws/install/nodes/share/nodes/package.dsv'
+[1.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/elizabeth_s/ros2_ws/install/nodes/share/nodes/package.sh'
+[1.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/elizabeth_s/ros2_ws/install/nodes/share/nodes/package.bash'
+[1.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/elizabeth_s/ros2_ws/install/nodes/share/nodes/package.zsh'
+[1.380s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/elizabeth_s/ros2_ws/install/nodes/share/colcon-core/packages/nodes)
+[1.382s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(point_cloud_perception)
+[1.382s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/point_cloud_perception' for CMake module files
+[1.384s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/elizabeth_s/ros2_ws/build/point_cloud_perception' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elizabeth_s/ros2_ws/install/robot_math:/home/elizabeth_s/ros2_ws/install/ai_assitance:/home/elizabeth_s/ros2_ws/install/open3d-detector:/home/elizabeth_s/ros2_ws/install/rrt_navigation:/opt/ros/humble /usr/bin/cmake --install /home/elizabeth_s/ros2_ws/build/point_cloud_perception
+[1.384s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/point_cloud_perception' for CMake config files
+[1.385s] Level 1:colcon.colcon_core.shell:create_environment_hook('point_cloud_perception', 'cmake_prefix_path')
+[1.385s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/elizabeth_s/ros2_ws/install/point_cloud_perception/share/point_cloud_perception/hook/cmake_prefix_path.ps1'
+[1.386s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/elizabeth_s/ros2_ws/install/point_cloud_perception/share/point_cloud_perception/hook/cmake_prefix_path.dsv'
+[1.387s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/elizabeth_s/ros2_ws/install/point_cloud_perception/share/point_cloud_perception/hook/cmake_prefix_path.sh'
+[1.388s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/point_cloud_perception/lib'
+[1.388s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/point_cloud_perception/bin'
+[1.389s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/point_cloud_perception/lib/pkgconfig/point_cloud_perception.pc'
+[1.389s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/point_cloud_perception/lib/python3.10/site-packages'
+[1.389s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/point_cloud_perception/bin'
+[1.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/elizabeth_s/ros2_ws/install/point_cloud_perception/share/point_cloud_perception/package.ps1'
+[1.391s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/elizabeth_s/ros2_ws/install/point_cloud_perception/share/point_cloud_perception/package.dsv'
+[1.392s] INFO:colcon.colcon_core.shell:Creating package script '/home/elizabeth_s/ros2_ws/install/point_cloud_perception/share/point_cloud_perception/package.sh'
+[1.393s] INFO:colcon.colcon_core.shell:Creating package script '/home/elizabeth_s/ros2_ws/install/point_cloud_perception/share/point_cloud_perception/package.bash'
+[1.397s] INFO:colcon.colcon_core.shell:Creating package script '/home/elizabeth_s/ros2_ws/install/point_cloud_perception/share/point_cloud_perception/package.zsh'
+[1.398s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/elizabeth_s/ros2_ws/install/point_cloud_perception/share/colcon-core/packages/point_cloud_perception)
+[1.399s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(point_cloud_perception)
+[1.400s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/point_cloud_perception' for CMake module files
+[1.401s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/point_cloud_perception' for CMake config files
+[1.402s] Level 1:colcon.colcon_core.shell:create_environment_hook('point_cloud_perception', 'cmake_prefix_path')
+[1.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/elizabeth_s/ros2_ws/install/point_cloud_perception/share/point_cloud_perception/hook/cmake_prefix_path.ps1'
+[1.405s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/elizabeth_s/ros2_ws/install/point_cloud_perception/share/point_cloud_perception/hook/cmake_prefix_path.dsv'
+[1.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/elizabeth_s/ros2_ws/install/point_cloud_perception/share/point_cloud_perception/hook/cmake_prefix_path.sh'
+[1.409s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/point_cloud_perception/lib'
+[1.409s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/point_cloud_perception/bin'
+[1.409s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/point_cloud_perception/lib/pkgconfig/point_cloud_perception.pc'
+[1.409s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/point_cloud_perception/lib/python3.10/site-packages'
+[1.410s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/point_cloud_perception/bin'
+[1.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/elizabeth_s/ros2_ws/install/point_cloud_perception/share/point_cloud_perception/package.ps1'
+[1.411s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/elizabeth_s/ros2_ws/install/point_cloud_perception/share/point_cloud_perception/package.dsv'
+[1.413s] INFO:colcon.colcon_core.shell:Creating package script '/home/elizabeth_s/ros2_ws/install/point_cloud_perception/share/point_cloud_perception/package.sh'
+[1.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/elizabeth_s/ros2_ws/install/point_cloud_perception/share/point_cloud_perception/package.bash'
+[1.415s] INFO:colcon.colcon_core.shell:Creating package script '/home/elizabeth_s/ros2_ws/install/point_cloud_perception/share/point_cloud_perception/package.zsh'
+[1.418s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/elizabeth_s/ros2_ws/install/point_cloud_perception/share/colcon-core/packages/point_cloud_perception)
+[1.421s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigation_tb3)
+[1.422s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/navigation_tb3' for CMake module files
+[1.423s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/elizabeth_s/ros2_ws/build/navigation_tb3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elizabeth_s/ros2_ws/install/robot_math:/home/elizabeth_s/ros2_ws/install/ai_assitance:/home/elizabeth_s/ros2_ws/install/open3d-detector:/home/elizabeth_s/ros2_ws/install/rrt_navigation:/opt/ros/humble /usr/bin/cmake --install /home/elizabeth_s/ros2_ws/build/navigation_tb3
+[1.424s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/navigation_tb3' for CMake config files
+[1.424s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation_tb3', 'cmake_prefix_path')
+[1.424s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/elizabeth_s/ros2_ws/install/navigation_tb3/share/navigation_tb3/hook/cmake_prefix_path.ps1'
+[1.425s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/elizabeth_s/ros2_ws/install/navigation_tb3/share/navigation_tb3/hook/cmake_prefix_path.dsv'
+[1.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/elizabeth_s/ros2_ws/install/navigation_tb3/share/navigation_tb3/hook/cmake_prefix_path.sh'
+[1.427s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/navigation_tb3/lib'
+[1.427s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/navigation_tb3/bin'
+[1.427s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/navigation_tb3/lib/pkgconfig/navigation_tb3.pc'
+[1.428s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/navigation_tb3/lib/python3.10/site-packages'
+[1.428s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/navigation_tb3/bin'
+[1.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/elizabeth_s/ros2_ws/install/navigation_tb3/share/navigation_tb3/package.ps1'
+[1.430s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/elizabeth_s/ros2_ws/install/navigation_tb3/share/navigation_tb3/package.dsv'
+[1.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/elizabeth_s/ros2_ws/install/navigation_tb3/share/navigation_tb3/package.sh'
+[1.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/elizabeth_s/ros2_ws/install/navigation_tb3/share/navigation_tb3/package.bash'
+[1.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/elizabeth_s/ros2_ws/install/navigation_tb3/share/navigation_tb3/package.zsh'
+[1.433s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/elizabeth_s/ros2_ws/install/navigation_tb3/share/colcon-core/packages/navigation_tb3)
+[1.434s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigation_tb3)
+[1.435s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/navigation_tb3' for CMake module files
+[1.435s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/navigation_tb3' for CMake config files
+[1.436s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation_tb3', 'cmake_prefix_path')
+[1.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/elizabeth_s/ros2_ws/install/navigation_tb3/share/navigation_tb3/hook/cmake_prefix_path.ps1'
+[1.437s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/elizabeth_s/ros2_ws/install/navigation_tb3/share/navigation_tb3/hook/cmake_prefix_path.dsv'
+[1.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/elizabeth_s/ros2_ws/install/navigation_tb3/share/navigation_tb3/hook/cmake_prefix_path.sh'
+[1.439s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/navigation_tb3/lib'
+[1.439s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/navigation_tb3/bin'
+[1.439s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/navigation_tb3/lib/pkgconfig/navigation_tb3.pc'
+[1.439s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/navigation_tb3/lib/python3.10/site-packages'
+[1.440s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/navigation_tb3/bin'
+[1.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/elizabeth_s/ros2_ws/install/navigation_tb3/share/navigation_tb3/package.ps1'
+[1.441s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/elizabeth_s/ros2_ws/install/navigation_tb3/share/navigation_tb3/package.dsv'
+[1.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/elizabeth_s/ros2_ws/install/navigation_tb3/share/navigation_tb3/package.sh'
+[1.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/elizabeth_s/ros2_ws/install/navigation_tb3/share/navigation_tb3/package.bash'
+[1.444s] INFO:colcon.colcon_core.shell:Creating package script '/home/elizabeth_s/ros2_ws/install/navigation_tb3/share/navigation_tb3/package.zsh'
+[1.445s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/elizabeth_s/ros2_ws/install/navigation_tb3/share/colcon-core/packages/navigation_tb3)
+[1.447s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/elizabeth_s/ros2_ws/build/transforms' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elizabeth_s/ros2_ws/install/robot_math:/home/elizabeth_s/ros2_ws/install/ai_assitance:/home/elizabeth_s/ros2_ws/install/open3d-detector:/home/elizabeth_s/ros2_ws/install/rrt_navigation:/opt/ros/humble /usr/bin/cmake --build /home/elizabeth_s/ros2_ws/build/transforms -- -j8 -l8
+[1.450s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/elizabeth_s/ros2_ws/build/transforms': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elizabeth_s/ros2_ws/install/robot_math:/home/elizabeth_s/ros2_ws/install/ai_assitance:/home/elizabeth_s/ros2_ws/install/open3d-detector:/home/elizabeth_s/ros2_ws/install/rrt_navigation:/opt/ros/humble /usr/bin/cmake --install /home/elizabeth_s/ros2_ws/build/transforms
+[1.467s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(transforms)
+[1.467s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/transforms' for CMake module files
+[1.468s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/elizabeth_s/ros2_ws/build/transforms' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elizabeth_s/ros2_ws/install/robot_math:/home/elizabeth_s/ros2_ws/install/ai_assitance:/home/elizabeth_s/ros2_ws/install/open3d-detector:/home/elizabeth_s/ros2_ws/install/rrt_navigation:/opt/ros/humble /usr/bin/cmake --install /home/elizabeth_s/ros2_ws/build/transforms
+[1.469s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/transforms' for CMake config files
+[1.469s] Level 1:colcon.colcon_core.shell:create_environment_hook('transforms', 'cmake_prefix_path')
+[1.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/elizabeth_s/ros2_ws/install/transforms/share/transforms/hook/cmake_prefix_path.ps1'
+[1.470s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/elizabeth_s/ros2_ws/install/transforms/share/transforms/hook/cmake_prefix_path.dsv'
+[1.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/elizabeth_s/ros2_ws/install/transforms/share/transforms/hook/cmake_prefix_path.sh'
+[1.472s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/transforms/lib'
+[1.472s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/transforms/bin'
+[1.472s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/transforms/lib/pkgconfig/transforms.pc'
+[1.473s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/transforms/lib/python3.10/site-packages'
+[1.473s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/transforms/bin'
+[1.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/elizabeth_s/ros2_ws/install/transforms/share/transforms/package.ps1'
+[1.474s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/elizabeth_s/ros2_ws/install/transforms/share/transforms/package.dsv'
+[1.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/elizabeth_s/ros2_ws/install/transforms/share/transforms/package.sh'
+[1.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/elizabeth_s/ros2_ws/install/transforms/share/transforms/package.bash'
+[1.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/elizabeth_s/ros2_ws/install/transforms/share/transforms/package.zsh'
+[1.477s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/elizabeth_s/ros2_ws/install/transforms/share/colcon-core/packages/transforms)
+[1.478s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(transforms)
+[1.479s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/transforms' for CMake module files
+[1.479s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/transforms' for CMake config files
+[1.480s] Level 1:colcon.colcon_core.shell:create_environment_hook('transforms', 'cmake_prefix_path')
+[1.481s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/elizabeth_s/ros2_ws/install/transforms/share/transforms/hook/cmake_prefix_path.ps1'
+[1.482s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/elizabeth_s/ros2_ws/install/transforms/share/transforms/hook/cmake_prefix_path.dsv'
+[1.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/elizabeth_s/ros2_ws/install/transforms/share/transforms/hook/cmake_prefix_path.sh'
+[1.484s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/transforms/lib'
+[1.484s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/transforms/bin'
+[1.484s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/transforms/lib/pkgconfig/transforms.pc'
+[1.485s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/transforms/lib/python3.10/site-packages'
+[1.485s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/transforms/bin'
+[1.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/elizabeth_s/ros2_ws/install/transforms/share/transforms/package.ps1'
+[1.486s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/elizabeth_s/ros2_ws/install/transforms/share/transforms/package.dsv'
+[1.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/elizabeth_s/ros2_ws/install/transforms/share/transforms/package.sh'
+[1.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/elizabeth_s/ros2_ws/install/transforms/share/transforms/package.bash'
+[1.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/elizabeth_s/ros2_ws/install/transforms/share/transforms/package.zsh'
+[1.490s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/elizabeth_s/ros2_ws/install/transforms/share/colcon-core/packages/transforms)
+[1.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/elizabeth_s/ros2_ws/ros2_learners/ai_assitance': PYTHONPATH=/home/elizabeth_s/ros2_ws/build/ai_assitance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/elizabeth_s/ros2_ws/install/ai_assitance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ai_assitance build --build-base /home/elizabeth_s/ros2_ws/build/ai_assitance/build install --record /home/elizabeth_s/ros2_ws/build/ai_assitance/install.log --single-version-externally-managed install_data
+[1.968s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/elizabeth_s/ros2_ws/src/rrt_navigation': PYTHONPATH=/home/elizabeth_s/ros2_ws/build/rrt_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/elizabeth_s/ros2_ws/install/rrt_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rrt_navigation build --build-base /home/elizabeth_s/ros2_ws/build/rrt_navigation/build install --record /home/elizabeth_s/ros2_ws/build/rrt_navigation/install.log --single-version-externally-managed install_data
+[1.968s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/elizabeth_s/ros2_ws/ros2_learners/robot_math': PYTHONPATH=/home/elizabeth_s/ros2_ws/build/robot_math/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/elizabeth_s/ros2_ws/install/robot_math/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_math build --build-base /home/elizabeth_s/ros2_ws/build/robot_math/build install --record /home/elizabeth_s/ros2_ws/build/robot_math/install.log --single-version-externally-managed install_data
+[2.301s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/ai_assitance' for CMake module files
+[2.302s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/elizabeth_s/ros2_ws/ros2_learners/ai_assitance' returned '0': PYTHONPATH=/home/elizabeth_s/ros2_ws/build/ai_assitance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/elizabeth_s/ros2_ws/install/ai_assitance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ai_assitance build --build-base /home/elizabeth_s/ros2_ws/build/ai_assitance/build install --record /home/elizabeth_s/ros2_ws/build/ai_assitance/install.log --single-version-externally-managed install_data
+[2.303s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/ai_assitance' for CMake config files
+[2.303s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/ai_assitance/lib'
+[2.304s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/ai_assitance/bin'
+[2.304s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/ai_assitance/lib/pkgconfig/ai_assitance.pc'
+[2.304s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/ai_assitance/lib/python3.10/site-packages'
+[2.304s] Level 1:colcon.colcon_core.shell:create_environment_hook('ai_assitance', 'pythonpath')
+[2.304s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/elizabeth_s/ros2_ws/install/ai_assitance/share/ai_assitance/hook/pythonpath.ps1'
+[2.305s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/elizabeth_s/ros2_ws/install/ai_assitance/share/ai_assitance/hook/pythonpath.dsv'
+[2.305s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/elizabeth_s/ros2_ws/install/ai_assitance/share/ai_assitance/hook/pythonpath.sh'
+[2.306s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/ai_assitance/bin'
+[2.306s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ai_assitance)
+[2.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/elizabeth_s/ros2_ws/install/ai_assitance/share/ai_assitance/package.ps1'
+[2.307s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/elizabeth_s/ros2_ws/install/ai_assitance/share/ai_assitance/package.dsv'
+[2.307s] INFO:colcon.colcon_core.shell:Creating package script '/home/elizabeth_s/ros2_ws/install/ai_assitance/share/ai_assitance/package.sh'
+[2.308s] INFO:colcon.colcon_core.shell:Creating package script '/home/elizabeth_s/ros2_ws/install/ai_assitance/share/ai_assitance/package.bash'
+[2.308s] INFO:colcon.colcon_core.shell:Creating package script '/home/elizabeth_s/ros2_ws/install/ai_assitance/share/ai_assitance/package.zsh'
+[2.309s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/elizabeth_s/ros2_ws/install/ai_assitance/share/colcon-core/packages/ai_assitance)
+[2.310s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/rrt_navigation' for CMake module files
+[2.310s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/elizabeth_s/ros2_ws/src/rrt_navigation' returned '0': PYTHONPATH=/home/elizabeth_s/ros2_ws/build/rrt_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/elizabeth_s/ros2_ws/install/rrt_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rrt_navigation build --build-base /home/elizabeth_s/ros2_ws/build/rrt_navigation/build install --record /home/elizabeth_s/ros2_ws/build/rrt_navigation/install.log --single-version-externally-managed install_data
+[2.311s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/rrt_navigation' for CMake config files
+[2.311s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/rrt_navigation/lib'
+[2.311s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/rrt_navigation/bin'
+[2.311s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/rrt_navigation/lib/pkgconfig/rrt_navigation.pc'
+[2.311s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/rrt_navigation/lib/python3.10/site-packages'
+[2.312s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrt_navigation', 'pythonpath')
+[2.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/elizabeth_s/ros2_ws/install/rrt_navigation/share/rrt_navigation/hook/pythonpath.ps1'
+[2.312s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/elizabeth_s/ros2_ws/install/rrt_navigation/share/rrt_navigation/hook/pythonpath.dsv'
+[2.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/elizabeth_s/ros2_ws/install/rrt_navigation/share/rrt_navigation/hook/pythonpath.sh'
+[2.313s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/rrt_navigation/bin'
+[2.313s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rrt_navigation)
+[2.314s] INFO:colcon.colcon_core.shell:Creating package script '/home/elizabeth_s/ros2_ws/install/rrt_navigation/share/rrt_navigation/package.ps1'
+[2.314s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/elizabeth_s/ros2_ws/install/rrt_navigation/share/rrt_navigation/package.dsv'
+[2.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/elizabeth_s/ros2_ws/install/rrt_navigation/share/rrt_navigation/package.sh'
+[2.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/elizabeth_s/ros2_ws/install/rrt_navigation/share/rrt_navigation/package.bash'
+[2.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/elizabeth_s/ros2_ws/install/rrt_navigation/share/rrt_navigation/package.zsh'
+[2.316s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/elizabeth_s/ros2_ws/install/rrt_navigation/share/colcon-core/packages/rrt_navigation)
+[2.316s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/robot_math' for CMake module files
+[2.317s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/robot_math' for CMake config files
+[2.317s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/elizabeth_s/ros2_ws/ros2_learners/robot_math' returned '0': PYTHONPATH=/home/elizabeth_s/ros2_ws/build/robot_math/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/elizabeth_s/ros2_ws/install/robot_math/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_math build --build-base /home/elizabeth_s/ros2_ws/build/robot_math/build install --record /home/elizabeth_s/ros2_ws/build/robot_math/install.log --single-version-externally-managed install_data
+[2.318s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/robot_math/lib'
+[2.318s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/robot_math/bin'
+[2.318s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/robot_math/lib/pkgconfig/robot_math.pc'
+[2.318s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/robot_math/lib/python3.10/site-packages'
+[2.318s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_math', 'pythonpath')
+[2.318s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/elizabeth_s/ros2_ws/install/robot_math/share/robot_math/hook/pythonpath.ps1'
+[2.319s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/elizabeth_s/ros2_ws/install/robot_math/share/robot_math/hook/pythonpath.dsv'
+[2.319s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/elizabeth_s/ros2_ws/install/robot_math/share/robot_math/hook/pythonpath.sh'
+[2.320s] Level 1:colcon.colcon_core.environment:checking '/home/elizabeth_s/ros2_ws/install/robot_math/bin'
+[2.320s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_math)
+[2.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/elizabeth_s/ros2_ws/install/robot_math/share/robot_math/package.ps1'
+[2.320s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/elizabeth_s/ros2_ws/install/robot_math/share/robot_math/package.dsv'
+[2.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/elizabeth_s/ros2_ws/install/robot_math/share/robot_math/package.sh'
+[2.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/elizabeth_s/ros2_ws/install/robot_math/share/robot_math/package.bash'
+[2.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/elizabeth_s/ros2_ws/install/robot_math/share/robot_math/package.zsh'
+[2.322s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/elizabeth_s/ros2_ws/install/robot_math/share/colcon-core/packages/robot_math)
+[2.322s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.322s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.322s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.322s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.327s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.328s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.328s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.338s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.338s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/elizabeth_s/ros2_ws/install/local_setup.ps1'
+[2.339s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/elizabeth_s/ros2_ws/install/_local_setup_util_ps1.py'
+[2.340s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/elizabeth_s/ros2_ws/install/setup.ps1'
+[2.341s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/elizabeth_s/ros2_ws/install/local_setup.sh'
+[2.342s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/elizabeth_s/ros2_ws/install/_local_setup_util_sh.py'
+[2.342s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/elizabeth_s/ros2_ws/install/setup.sh'
+[2.343s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/elizabeth_s/ros2_ws/install/local_setup.bash'
+[2.344s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/elizabeth_s/ros2_ws/install/setup.bash'
+[2.345s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/elizabeth_s/ros2_ws/install/local_setup.zsh'
+[2.345s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/elizabeth_s/ros2_ws/install/setup.zsh'

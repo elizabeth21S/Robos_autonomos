@@ -1,0 +1,37 @@
+[2.166s] Invoking command in '/home/elizabeth_s/ros2_ws/build/transforms': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elizabeth_s/ros2_ws/install/robot_math:/home/elizabeth_s/ros2_ws/install/ai_assitance:/home/elizabeth_s/ros2_ws/install/open3d-detector:/home/elizabeth_s/ros2_ws/install/rrt_navigation:/opt/ros/humble /usr/bin/cmake --build /home/elizabeth_s/ros2_ws/build/transforms -- -j8 -l8
+[2.355s] [ 20%] Built target rotation_frame
+[2.359s] [ 40%] Built target translation_frame
+[2.376s] [ 60%] Built target transform_order
+[2.377s] [ 80%] Built target frame_chains
+[2.378s] [100%] Built target static_dynamic_frame
+[2.456s] Invoked command in '/home/elizabeth_s/ros2_ws/build/transforms' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elizabeth_s/ros2_ws/install/robot_math:/home/elizabeth_s/ros2_ws/install/ai_assitance:/home/elizabeth_s/ros2_ws/install/open3d-detector:/home/elizabeth_s/ros2_ws/install/rrt_navigation:/opt/ros/humble /usr/bin/cmake --build /home/elizabeth_s/ros2_ws/build/transforms -- -j8 -l8
+[2.464s] Invoking command in '/home/elizabeth_s/ros2_ws/build/transforms': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elizabeth_s/ros2_ws/install/robot_math:/home/elizabeth_s/ros2_ws/install/ai_assitance:/home/elizabeth_s/ros2_ws/install/open3d-detector:/home/elizabeth_s/ros2_ws/install/rrt_navigation:/opt/ros/humble /usr/bin/cmake --install /home/elizabeth_s/ros2_ws/build/transforms
+[2.482s] -- Install configuration: ""
+[2.483s] -- Up-to-date: /home/elizabeth_s/ros2_ws/install/transforms/lib/transforms/translation_frame
+[2.483s] -- Up-to-date: /home/elizabeth_s/ros2_ws/install/transforms/lib/transforms/rotation_frame
+[2.483s] -- Up-to-date: /home/elizabeth_s/ros2_ws/install/transforms/lib/transforms/transform_order
+[2.484s] -- Up-to-date: /home/elizabeth_s/ros2_ws/install/transforms/lib/transforms/frame_chains
+[2.485s] -- Up-to-date: /home/elizabeth_s/ros2_ws/install/transforms/lib/transforms/static_dynamic_frame
+[2.487s] -- Up-to-date: /home/elizabeth_s/ros2_ws/install/transforms/share/transforms/launch
+[2.488s] -- Up-to-date: /home/elizabeth_s/ros2_ws/install/transforms/share/transforms/launch/rviz.launch.py
+[2.488s] -- Up-to-date: /home/elizabeth_s/ros2_ws/install/transforms/share/transforms/launch/gazebo.launch.py
+[2.489s] -- Up-to-date: /home/elizabeth_s/ros2_ws/install/transforms/share/transforms/urdf
+[2.489s] -- Up-to-date: /home/elizabeth_s/ros2_ws/install/transforms/share/transforms/urdf/diff_drive.urdf
+[2.489s] -- Up-to-date: /home/elizabeth_s/ros2_ws/install/transforms/share/transforms/config
+[2.489s] -- Up-to-date: /home/elizabeth_s/ros2_ws/install/transforms/share/transforms/config/urdf_view.rviz
+[2.489s] -- Up-to-date: /home/elizabeth_s/ros2_ws/install/transforms/share/ament_index/resource_index/package_run_dependencies/transforms
+[2.490s] -- Up-to-date: /home/elizabeth_s/ros2_ws/install/transforms/share/ament_index/resource_index/parent_prefix_path/transforms
+[2.490s] -- Up-to-date: /home/elizabeth_s/ros2_ws/install/transforms/share/transforms/environment/ament_prefix_path.sh
+[2.499s] -- Up-to-date: /home/elizabeth_s/ros2_ws/install/transforms/share/transforms/environment/ament_prefix_path.dsv
+[2.500s] -- Up-to-date: /home/elizabeth_s/ros2_ws/install/transforms/share/transforms/environment/path.sh
+[2.500s] -- Up-to-date: /home/elizabeth_s/ros2_ws/install/transforms/share/transforms/environment/path.dsv
+[2.500s] -- Up-to-date: /home/elizabeth_s/ros2_ws/install/transforms/share/transforms/local_setup.bash
+[2.500s] -- Up-to-date: /home/elizabeth_s/ros2_ws/install/transforms/share/transforms/local_setup.sh
+[2.500s] -- Up-to-date: /home/elizabeth_s/ros2_ws/install/transforms/share/transforms/local_setup.zsh
+[2.501s] -- Up-to-date: /home/elizabeth_s/ros2_ws/install/transforms/share/transforms/local_setup.dsv
+[2.501s] -- Installing: /home/elizabeth_s/ros2_ws/install/transforms/share/transforms/package.dsv
+[2.501s] -- Up-to-date: /home/elizabeth_s/ros2_ws/install/transforms/share/ament_index/resource_index/packages/transforms
+[2.501s] -- Up-to-date: /home/elizabeth_s/ros2_ws/install/transforms/share/transforms/cmake/transformsConfig.cmake
+[2.501s] -- Up-to-date: /home/elizabeth_s/ros2_ws/install/transforms/share/transforms/cmake/transformsConfig-version.cmake
+[2.502s] -- Up-to-date: /home/elizabeth_s/ros2_ws/install/transforms/share/transforms/package.xml
+[2.502s] Invoked command in '/home/elizabeth_s/ros2_ws/build/transforms' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elizabeth_s/ros2_ws/install/robot_math:/home/elizabeth_s/ros2_ws/install/ai_assitance:/home/elizabeth_s/ros2_ws/install/open3d-detector:/home/elizabeth_s/ros2_ws/install/rrt_navigation:/opt/ros/humble /usr/bin/cmake --install /home/elizabeth_s/ros2_ws/build/transforms
