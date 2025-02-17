@@ -23,6 +23,14 @@ export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/opt/ros/<ros2-distro>/share/turtleb
 
 ros2 launch rrt_navigation rrt_worldlaunch.py headless:=False world:=ruta/to/world slam:=True
 ```
+
+### 4️⃣ Iniciar a detecção de obstáculos
+Para iniciar a detecção, executar em outro terminal:
+```bash
+ros2 run rrt_navigation test_camera
+```
+
+
 ### 🛠 Requisitos
 
 ✅ ROS 2 Humble
